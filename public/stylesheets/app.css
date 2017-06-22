@@ -1,0 +1,14 @@
+body {
+	font-family: Arial, sans-serif;
+}
+.section {
+	margin: 20px;
+}
+button {
+	padding: 5px 16px;
+	border-radius: 4px;
+}
+button#register { background-color: yellow; }
+button#lend { background-color: #98fb98; }
+button#withdraw { background-color: pink; }
+button#getBalance { background-color: #add8e6; }
