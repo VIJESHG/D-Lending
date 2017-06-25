@@ -4,9 +4,9 @@
   <title>EthLenders DApp</title>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
   <link href="stylesheets/app.css" rel="stylesheet">
-  
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="javascripts/try.js"></script>
+<script src="https://cdn.rawgit.com/ethereum/web3.js/develop/dist/web3.js"></script>
+<script src="../javascripts/try.js"></script>
 </head>
 <body>
   <h1>EthLenders DApp</h1>
@@ -14,7 +14,7 @@
     Contract deployed at: <div id="contractAddress"></div>
   </div>
   <div class="section">
-    Owner: <div id="owner"> </div>
+    Owner: <div id="contractOwner"> </div>
   </div>
  <hr/>
   <div class="section">
@@ -22,7 +22,7 @@
       <button id="register">Register</button>
       <span id="registeredResult"></span>
   </div>
- 
+
   <div class="section">
     <h2>Lend Money</h2>
       Value: <input type="text" id="amount" value="0.5"/>
@@ -30,7 +30,7 @@
       <button id="lend">Lend</button>
       <span id="getLendResult"></span>
   </div>
-  
+
   <div class="section">
     <h2>Withdraw Money</h2>
       Amount: <input type="text" id="amount"/>
@@ -42,7 +42,7 @@
     <h2>Get Balance</h2>
       Wallet Address: <input type="text" id="walletAddress"/>
       <button id="getBalance">GetBalance</button>
-      <span id="getBalancetResult"></span>
+      <span id="getBalanceResult"></span>
   </div>
 
   <hr/>
